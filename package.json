@@ -4,13 +4,34 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --config webpack.config.js -w"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^9.0.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-es2015-shorthand-properties": "^6.24.1",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "bootstrap": "^4.4.1",
+    "css-loader": "^1.0.0",
+    "jquery": "^3.4.1",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.9.2",
+    "optimize-css-assets-webpack-plugin": "^5.0.0",
+    "popper.js": "~1.14.0",
+    "postcss-flexibility": "^2.0.0",
+    "postcss-loader": "^2.1.6",
+    "purgecss-webpack-plugin": "^2.1.0",
+    "sass-loader": "^7.0.3",
+    "string-replace-loader": "^2.2.0",
+    "style-loader": "^0.21.0",
     "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.11",
+    "webpack-sources": "^1.4.3"
   }
 }
