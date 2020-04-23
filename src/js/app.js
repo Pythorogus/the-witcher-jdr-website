@@ -1,20 +1,15 @@
-// import 'bootstrap/js/dist/alert';
-// import 'bootstrap/js/dist/button';
-// import 'bootstrap/js/dist/carousel';
-import 'bootstrap/js/dist/collapse';
-// import 'bootstrap/js/dist/dropdown';
-// import 'bootstrap/js/dist/index';
-// import 'bootstrap/js/dist/modal';
-// import 'bootstrap/js/dist/popover';
-// import 'bootstrap/js/dist/scrollspy';
-// import 'bootstrap/js/dist/tab';
-// import 'bootstrap/js/dist/toast';
-// import 'bootstrap/js/dist/tooltip';
-// import 'bootstrap/js/dist/util';
-// import 'popper.js';
+import 'bootstrap';
+import 'popper.js';
 
-/*
+import { library,dom } from '@fortawesome/fontawesome-svg-core';
+// import '@fortawesome/free-solid-svg-icons';
+// import '@fortawesome/free-regular-svg-icons'
+import {
+    faFacebookSquare, faDiscord, faTwitter, faYoutube,
+} from '@fortawesome/free-brands-svg-icons';
+library.add(faFacebookSquare,faDiscord,faTwitter,faYoutube);
+dom.watch();
+
 $(document).ready(function(){
     
 })
-*/

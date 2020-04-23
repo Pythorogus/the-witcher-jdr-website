@@ -1,0 +1,12 @@
+@mixin section{
+    padding-top: $section-padding;
+    padding-bottom: $section-padding;
+}
+
+@mixin section-top{
+    padding-top: $section-padding;
+}
+
+@mixin section-bottom{
+    padding-bottom: $section-padding;
+}

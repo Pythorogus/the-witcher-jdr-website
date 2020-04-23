@@ -1,3 +1,31 @@
 body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+h1{
     font-family: 'Metamorphous', cursive;
+    margin-bottom: 30px !important;
+}
+
+.section{@include section}
+.section-top{@include section-top}
+.section-bottom{@include section-bottom}
+
+.lead{
+    font-weight: 700;
+}
+
+.banner{
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    h1{
+        color: white;
+        small{
+            font-size: 50%;
+        }
+    }
 }

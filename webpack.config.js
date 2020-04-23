@@ -99,11 +99,11 @@ module.exports = {
     ]
   },
   plugins: [
-    new PurgecssPlugin({
-      paths: glob.sync(`${vars.PATHS.dist}/**/*.html`, { nodir: true }),
-      whitelist: vars.whiteList,
-      whitelistPatterns: vars.whiteListPatterns,
-    }),
+    // new PurgecssPlugin({
+    //   paths: glob.sync(`${vars.PATHS.dist}/**/*.html`, { nodir: true }),
+    //   whitelist: vars.whiteList,
+    //   whitelistPatterns: vars.whiteListPatterns,
+    // }),
     new MiniCssExtractPlugin({
       filename: "css/[name].css"
     }),

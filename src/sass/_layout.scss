@@ -1,0 +1,19 @@
+.navbar{
+    .nav-item{
+        .nav-link{
+            font-family: 'Metamorphous', cursive;
+            color: $dark !important;
+        }
+    }
+    svg{
+        font-size: 20px;
+    }
+}
+
+footer{
+    background-color: $light;
+    padding: 20px 0;
+    a{
+        font-size: 20px;
+    }
+}
