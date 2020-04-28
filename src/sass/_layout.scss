@@ -1,8 +1,13 @@
 .navbar{
+    .navbar-brand{
+        @include media-breakpoint-down(sm){
+            max-width: 200px;
+        }
+    }
     .nav-item{
         .nav-link{
             font-family: 'Metamorphous', cursive;
-            color: $dark !important;
+            color: $dark;
         }
     }
     svg{

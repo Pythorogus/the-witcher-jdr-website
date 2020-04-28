@@ -6,6 +6,26 @@ body{
 h1{
     font-family: 'Metamorphous', cursive;
     margin-bottom: 30px !important;
+    @include media-breakpoint-down(sm){
+        font-size: 22px;
+    }
+}
+
+h2{
+    font-family: 'Metamorphous', cursive; 
+    margin-bottom: 1rem;
+}
+
+h3{
+    font-size: 1.25rem;
+    font-weight: 700;
+    @include media-breakpoint-down(sm){
+        margin-top: 1rem;
+    }
+}
+
+strong{
+    font-weight: 700;
 }
 
 .section{@include section}
@@ -14,6 +34,13 @@ h1{
 
 .lead{
     font-weight: 700;
+    @include media-breakpoint-down(sm){
+        margin-top: 1rem;
+    }
+}
+
+.btn{
+    font-family: 'Metamorphous', cursive;
 }
 
 .banner{
@@ -22,6 +49,12 @@ h1{
     background-position: center;
     background-repeat: no-repeat;
     height: 300px;
+    @include media-breakpoint-only(md){
+        height: 200px;
+    }
+    @include media-breakpoint-down(sm){
+        height: 100px;
+    }
     h1{
         color: white;
         small{
