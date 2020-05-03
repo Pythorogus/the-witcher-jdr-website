@@ -14,12 +14,16 @@ h1{
 h2{
     font-family: 'Metamorphous', cursive; 
     margin-bottom: 1rem;
+    @include media-breakpoint-down(sm){
+        font-size: 20px;
+    }
 }
 
 h3{
     font-size: 1.25rem;
     font-weight: 700;
     @include media-breakpoint-down(sm){
+        font-size: 16px;
         margin-top: 1rem;
     }
 }
@@ -37,6 +41,13 @@ strong{
     @include media-breakpoint-down(sm){
         margin-top: 1rem;
     }
+}
+
+.breadcrumb{
+    margin-bottom: map-get($spacers,4) !important;
+    background: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .btn{
